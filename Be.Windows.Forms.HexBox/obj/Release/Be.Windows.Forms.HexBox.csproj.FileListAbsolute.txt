@@ -1,0 +1,7 @@
+C:\Users\Scott\Documents\Visual Studio 2015\Projects\HaFixer\Be.Windows.Forms.HexBox\bin\Release\Be.Windows.Forms.HexBox.xml
+C:\Users\Scott\Documents\Visual Studio 2015\Projects\HaFixer\Be.Windows.Forms.HexBox\bin\Release\Be.Windows.Forms.HexBox.dll
+C:\Users\Scott\Documents\Visual Studio 2015\Projects\HaFixer\Be.Windows.Forms.HexBox\obj\Release\Be.Windows.Forms.HexBox.csprojResolveAssemblyReference.cache
+C:\Users\Scott\Documents\Visual Studio 2015\Projects\HaFixer\Be.Windows.Forms.HexBox\obj\Release\Be.Windows.Forms.HexBox.resources
+C:\Users\Scott\Documents\Visual Studio 2015\Projects\HaFixer\Be.Windows.Forms.HexBox\obj\Release\Be.Windows.Forms.Properties.Resources.resources
+C:\Users\Scott\Documents\Visual Studio 2015\Projects\HaFixer\Be.Windows.Forms.HexBox\obj\Release\Be.Windows.Forms.HexBox.csproj.GenerateResource.Cache
+C:\Users\Scott\Documents\Visual Studio 2015\Projects\HaFixer\Be.Windows.Forms.HexBox\obj\Release\Be.Windows.Forms.HexBox.dll
