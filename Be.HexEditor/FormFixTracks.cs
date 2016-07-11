@@ -254,6 +254,9 @@ namespace Be.HexEditor
         {
             _bEventsFixed = _bNotesFixed = _bTimingFixed = false;
 
+            if (ResumeAtEventRow != 0)
+                MessageBox.Show("Warning: Resetting ResumeAt index to 1!");
+
             ResumeAtEventRow = 0;
             textBoxResumeAt.Text = (ResumeAtEventRow + 1).ToString();
         }
@@ -571,8 +574,8 @@ namespace Be.HexEditor
                 if (result1 == DialogResult.Cancel)
                     return; // cancel;
 
-                ResumeAtEventRow = 0;
-                textBoxResumeAt.Text = (ResumeAtEventRow + 1).ToString();
+//                ResumeAtEventRow = 0;
+//                textBoxResumeAt.Text = (ResumeAtEventRow + 1).ToString();
 
                 _bTimingFixed = false;
             }
@@ -596,8 +599,8 @@ namespace Be.HexEditor
 
                 _bTimingFixed = true;
 
-                ResumeAtEventRow = 0;
-                textBoxResumeAt.Text = (ResumeAtEventRow + 1).ToString();
+//                ResumeAtEventRow = 0;
+//                textBoxResumeAt.Text = (ResumeAtEventRow + 1).ToString();
 
                 MessageBox.Show("Timing fixed!");
             }
@@ -951,8 +954,8 @@ namespace Be.HexEditor
                 if (result1 == DialogResult.Cancel)
                     return; // cancel;
 
-                ResumeAtEventRow = 0;
-                textBoxResumeAt.Text = (ResumeAtEventRow + 1).ToString();
+//                ResumeAtEventRow = 0;
+//                textBoxResumeAt.Text = (ResumeAtEventRow + 1).ToString();
 
                 _bNotesFixed = false;
             }
@@ -969,8 +972,8 @@ namespace Be.HexEditor
                 return;
             }
 
-            ResumeAtEventRow = 0;
-            textBoxResumeAt.Text = (ResumeAtEventRow + 1).ToString();
+//            ResumeAtEventRow = 0;
+//            textBoxResumeAt.Text = (ResumeAtEventRow + 1).ToString();
 
             MessageBox.Show("Note-order fixed!");
 
@@ -1197,8 +1200,8 @@ namespace Be.HexEditor
                 if (result1 == DialogResult.Cancel)
                     return; // cancel;
 
-                ResumeAtEventRow = 0;
-                textBoxResumeAt.Text = (ResumeAtEventRow + 1).ToString();
+                if (ResumeAtEventRow != 0)
+                    MessageBox.Show("Warning: ResumeAt index is not at 1, it is " + (ResumeAtEventRow + 1).ToString() + "!");
 
                 _bEventsFixed = false;
                 _bNotesFixed = false;
@@ -1218,8 +1221,8 @@ namespace Be.HexEditor
                     break;
                 case -1:
                     RefreshColorsAndTimes(); // "Track is OK!";
-                    ResumeAtEventRow = 0;
-                    textBoxResumeAt.Text = (ResumeAtEventRow + 1).ToString();
+//                    ResumeAtEventRow = 0;
+//                    textBoxResumeAt.Text = (ResumeAtEventRow + 1).ToString();
                     _bEventsFixed = true;
                     break;
                 case -2:

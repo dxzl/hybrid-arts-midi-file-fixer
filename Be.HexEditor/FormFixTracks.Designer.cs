@@ -177,6 +177,7 @@
             // textBoxResumeAt
             // 
             this.textBoxResumeAt.Location = new System.Drawing.Point(127, 489);
+            this.textBoxResumeAt.MaxLength = 10;
             this.textBoxResumeAt.Name = "textBoxResumeAt";
             this.textBoxResumeAt.Size = new System.Drawing.Size(68, 20);
             this.textBoxResumeAt.TabIndex = 45;
